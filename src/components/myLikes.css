@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.myLikes-hero{
+    height: 56.25rem;
+    background: linear-gradient(90deg, rgba(69,0,173,1) 0%, rgba(93,124,255,1) 90%);
+
+}
+.myLikes-hero-title{
+   color: white;
+   font-family: 'Alkatra', cursive;
+   font-size: 7rem;
+   text-align: center;
+   padding-top: 10%;
+   padding-bottom: 3%;
+}
+.myLikes-hero-p{
+    color: rgb(223, 223, 223);
+    text-align: justify;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+.img-carousel{
+    height: 56.25rem;
+    width: 100%;
+}

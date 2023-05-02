@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.myProjects-hero{
+    height: 56.25rem;
+    background: linear-gradient(275deg, rgba(69,0,173,1) 0%, rgba(93,124,255,1) 90%);
+
+}
+.myProjects-hero-title{
+   color: white;
+   font-family: 'Alkatra', cursive;
+   font-size: 7rem;
+   text-align: center;
+   padding-top: 10%;
+   padding-bottom: 3%;
+}
+.myProjects-hero-p{
+    color: rgb(223, 223, 223);
+    text-align: justify;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+
+.myProjects-background{
+    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(21,25,45,1) 51%);
+    color: white;
+    height: 56.25rem;
+    padding-top: 200px;
+}
+
+.myProjects-table{
+    border-color: white;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+}
+.myProjects-table-th{
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.myProjects-table-td{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3rem;
+    color: rgb(223, 223, 223);
+}
