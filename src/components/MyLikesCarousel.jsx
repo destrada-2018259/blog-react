@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import japanese from './images/japanese-culture.jpg';
-import onepunch from './images/onepunch.png';
-import blas from './images/blas.jpg';
+import dev from './images/dev.jpg';
+import slam from './images/zlam.jpg';
+import japan from './images/japan.jpg'
 
 
 
@@ -20,37 +20,37 @@ export const MyLikesCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block img-carousel"
-          src={japanese}
+          src={dev}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Cultura de Japón</h3>
-          <p>Desde el año 2020 comencé a investigar y me dí cuenta de lo mucho que me gusta la cultura del país del sol naciente.</p>
+          <h3>Tecnología y Desarrollo de software</h3>
+          <p>Siempre me he interesado por el funcionamiento de los sistemas de uso cotidiano, <br/> mi curiosidad me hizo tomar la decisión de tomar el camino del desarrollo de software.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block img-carousel"
-          src={onepunch}
+          src={japan}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Anime</h3>
-          <p>Las series de anime son mi principal fuente de entretenimiento. <br /> Esto debido a sus historias tan únicas y emocionantes.</p>
+          <h3>Cultura Japonesa</h3>
+          <p>Los valores y principios que aplican los japoneses se me hacen muy interesantes, <br /> Así como sus tradiciones y lugares turísticos.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block img-carousel"
-          src={blas}
+          src={slam}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Videojuegos</h3>
+          <h3>Manga y Deporte</h3>
           <p>
-            Me gustan los videojuegos multijugador así como también los juegos indie.
+            Mi serie favorita de manga es Slam Dunk, serie que combina dos de mis pasiones, el manga y el Basketball. <br/>Esta historia no solo sirve como entretenimiento sino también como inspiración y motivación.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

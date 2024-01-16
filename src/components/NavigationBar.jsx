@@ -8,7 +8,7 @@ export const NavigationBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" className='navBar'>
       <Container>
-        <Navbar.Brand  className='navBar-title'>Da-Rojo</Navbar.Brand>
+        <Navbar.Brand  className='navBar-title'>Daniel Rojo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

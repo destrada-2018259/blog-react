@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+.myKnowledge-background{
+        background-color: rgb(24, 24, 24);
+        color: white;
+        height: 150.25rem;
+        padding-top: 50px;
+        align-items: center;
+}
+
+.mk-row{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.mk-col{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mk-card{
+    background-color: rgb(51, 51, 51);
+    max-width: 20rem;
+    max-height: 32rem;
+    height: 25rem;
+    margin: 10%;
+}
+
+.mk-img{
+    height: 18rem;
+    width: 18rem;
+    padding: 10%;
+    align-self: center;
+}
+
+.mk-card-title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+

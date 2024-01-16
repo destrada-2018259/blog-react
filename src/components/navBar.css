@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .navBar{
-    background: linear-gradient(90deg, rgba(48,28,139,1) 0%, rgba(68,40,195,1) 67%);
-    height: 80px;
+    background: black;
+    height: 90px;
     font-size: 1.5rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 .navBar-title{
     font-size: 2.8rem;
-    font-family: 'Alkatra', cursive;
+    font-family: 'Ubuntu', sans-serif;
     margin-right: 60%;
+    
 }
 .navBar-item{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 10px;
-    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: white;
 }
 .navBar-item:hover{
-    transition-delay: 0.1s;
-    color: black;
+    transition-delay: 0.5s;
+    color: white;
     background-color: white;
     border-radius: 10px;
     font-size: 1.6rem;
