@@ -1,8 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import linkedIn from "./images/linkedin.svg";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './navBar.css'
 
 export const NavigationBar = () => {
