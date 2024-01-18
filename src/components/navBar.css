@@ -20,6 +20,7 @@
     margin-left: 20px;
     border-radius: 20px;
     background-color: white;
+    color: black;
 }
 .navBar-item:hover{
     transition-delay: 0.5s;

@@ -3,10 +3,10 @@ import './footer.css'
 export const Footer = () => {
   return (
     <Container fluid className="footer">
-        
-            <p>&copy; 2023 Daniel de Jesús Estrada Rojo | IN6BV | 2018-259 </p>
 
-     
+      <p>&copy;2024 Daniel de Jesús Estrada Rojo</p>
+
+
     </Container>
   )
 }

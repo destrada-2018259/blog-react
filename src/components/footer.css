@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
 .footer{
-    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(21,25,45,1) 51%);
-    color: white;
+    background-color: rgb(8, 8, 8);
+    color: rgb(221, 221, 221);
+    line-height: 3.2rem;
     text-align: center;
-    height: 40px;
-    font-family: 'Alkatra', cursive;
-    font-size: 1.4rem;
+    height: 3.4rem;
+    font-family: 'Ubuntu', cursive;
+    font-size: 1.5rem;
 }
